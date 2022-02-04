@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { FETCH_USER, ADD_USER, UPDATE_USER, DELETE_USER } from './types'
+// import { FETCH_USER, ADD_USER } from './types'
 
 export const FetchUsers = () => async(dispatch) => {
     try {
